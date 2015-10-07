@@ -21,8 +21,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=0;Java;0;EUTF-8;1;1;0;%2Fhome%2FTU%2Ftug06655%2Fcards%2FCard.java;0;4
+current_page=2
+FILE_NAME_0=1257;Java;0;EUTF-8;1;1;0;%2Fhome%2FTU%2Ftug06655%2Fcards%2FCard.java;0;4
+FILE_NAME_1=756;Java;0;EUTF-8;1;1;0;%2Fhome%2FTU%2Ftug06655%2Fcards%2FDeck.java;0;4
+FILE_NAME_2=171;Java;0;EUTF-8;1;1;0;%2Fhome%2FTU%2Ftug06655%2Fcards%2FUser.java;0;4
 
 [VTE]
 last_dir=/home/TU/tug06655

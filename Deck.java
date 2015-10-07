@@ -27,15 +27,14 @@ public class Deck {
 	    for (int i = this.deck.length - 1; i > 0; i--)
 	    {
 	        index = random.nextInt(i + 1);
-	        temp = this.deck[index];
+	        temp = deck[index];
 	        this.deck[index] = this.deck[i];
 	        this.deck[i] = temp;
 	    }
 	}	
-	
-	
+		
 	public void printItems() {
-		for (int i = 0; i < 52; i++) {
+		for (int i = 0; i < this.deck.length; i++) {
 			System.out.println(this.deck[i]);
 		}
 	}
