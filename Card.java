@@ -65,19 +65,4 @@ case 'S':si = 3;
     }
     return names[this.value-1] + " of " + suits[si];
   }
-
-  public static void main(String args[]) throws CardException
-  {
-    char suits[] = {'C', 'D', 'H', 'S'};
-
-    for (int i = 0; i < 4; i++)
-    {
-      for (int j = 0; j < 13; j++)
-      {
-        Card c = new Card(suits[i], j+1);
-        System.out.println(c);
-      }
-    }
-  }
-
 }
